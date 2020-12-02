@@ -1,0 +1,37 @@
+{% extends "../common/iframbase.html" %}
+{% block content %}
+<div class="table-response">
+  <table class="table table-bordered">
+        <thead class="th">
+            <th class="text-center">角色名称</th>
+            <th class="text-center">角色描述</th>
+            <th class="text-center">增加时间</th>
+            <th class="text-center">角色状态</th>
+            <th class="text-center">操作</th>
+        </thead>
+    <tbody>
+      {% for role in roles %}
+      <tr>
+        <td class="text-center">{{role.role_name}}</td>
+        <td class="text-center">{{role.role_desc}}</td>
+        <td class="text-center"> {{helper.formaDate(role.time_create)}}</td>
+        <td class="text-center">
+          {% if role.role_status==1 %}
+            正常
+          {% else %}
+            异常
+          {% endif %}
+        </td>
+        <td class="text-center">
+          <a href="/admin/role/auth?id={{role._id}}">授权</a>
+          <a href="/admin/role/edit?id={{role._id}}">修改</a>
+          <a href="/admin/role/delete?id={{role._id}}">删除</a>
+        </td>
+      </tr>
+      {% endfor%}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+     
+  

@@ -1,0 +1,1196 @@
+2020-11-26 15:28:14,257 ERROR 9860 nodejs.ClusterClientNoResponseError: client no response in 46190145ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 9860
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:34:10,359 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:36:31,863 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:36:35,278 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:37:31,942 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:41:09,904 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:42:26,416 ERROR 19112 nodejs.unhandledRejectionError: EISDIR: illegal operation on a directory, read
+    at Object.readSync (fs.js:568:3)
+    at tryReadSync (fs.js:353:20)
+    at Object.readFileSync (fs.js:390:19)
+    at NunjucksFileLoader.getSource (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\node-loaders.js:91:15)
+    at NunjucksFileLoader.getSource (C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\file_loader.js:26:26)
+    at C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:337:29
+    at next (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:358:10)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\view.js:13:25
+    at new Promise (<anonymous>)
+    at NunjucksView.render (C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (C:\Users\86138\Desktop\rbac\node_modules\egg-view\lib\context_view.js:70:23)
+errno: -4068
+syscall: "read"
+code: "EISDIR"
+name: "unhandledRejectionError"
+pid: 19112
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:43:39,900 ERROR 19112 nodejs.unhandledRejectionError: EISDIR: illegal operation on a directory, read
+    at Object.readSync (fs.js:568:3)
+    at tryReadSync (fs.js:353:20)
+    at Object.readFileSync (fs.js:390:19)
+    at NunjucksFileLoader.getSource (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\node-loaders.js:91:15)
+    at NunjucksFileLoader.getSource (C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\file_loader.js:26:26)
+    at C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:337:29
+    at next (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:358:10)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\view.js:13:25
+    at new Promise (<anonymous>)
+    at NunjucksView.render (C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (C:\Users\86138\Desktop\rbac\node_modules\egg-view\lib\context_view.js:70:23)
+errno: -4068
+syscall: "read"
+code: "EISDIR"
+name: "unhandledRejectionError"
+pid: 19112
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:52:27,070 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:52:37,817 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 12:55:00,344 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:02:20,084 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:06:25,328 ERROR 2572 [-/127.0.0.1/-/17ms GET /admin/role/list] nodejs.TypeError: this.render is not a function
+    at RoleController.list (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:14:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 2572
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:15:35,297 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:15:43,828 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:24:50,762 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:24:54,101 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:25:37,863 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:27:38,610 ERROR 18072 [-/127.0.0.1/-/2ms GET /admin/role/edit?id=5fc1dd5ceb63e353508442a5] nodejs.TypeError: Cannot read property 'query' of undefined
+    at RoleController.edit (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:36:25)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 18072
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:29:45,707 ERROR 1872 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1872
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:38:15,004 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 13:38:53,724 ERROR 4200 [-/127.0.0.1/-/17ms POST /admin/role/doEdit] nodejs.ReferenceError: body is not defined
+    at RoleController.doEdit (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:44:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4200
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 14:47:37,180 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 14:49:12,973 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 14:49:17,031 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 14:55:03,884 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 14:56:17,336 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 14:56:37,396 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 14:56:41,609 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 14:59:56,347 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:00:32,342 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:01:18,212 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:01:28,063 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:01:33,010 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:02:12,060 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:12:19,919 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:13:16,945 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:14:00,619 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:14:20,922 ERROR 18116 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18116
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:21:15,131 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:28:49,301 ERROR 22728 [-/127.0.0.1/-/2ms GET /admin/staff/add] nodejs.ReferenceError: result is not defined
+    at StaffController.add (C:\Users\86138\Desktop\rbac\app\controller\admin\staff.js:7:21)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 22728
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:55:05,416 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:55:08,828 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:55:54,169 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:55:55,413 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:55:59,962 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:56:46,933 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 15:57:19,427 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:06:03,475 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:06:12,258 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:07:31,683 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:07:43,527 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:13:30,808 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:13:40,706 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:48:11,643 ERROR 10476 nodejs.ClusterClientNoResponseError: client no response in 1936776ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:52:40,877 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:53:45,867 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:53:49,600 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:54:16,062 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:55:27,448 ERROR 23192 [-/127.0.0.1/-/6ms GET /admin/staff/list] nodejs.TypeError: ctx.service.staff.findAll is not a function
+    at StaffController.list (C:\Users\86138\Desktop\rbac\app\controller\admin\staff.js:17:38)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 23192
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:56:38,086 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:56:42,042 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:56:45,532 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 16:56:57,653 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 17:14:32,590 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 17:18:08,397 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 17:26:02,578 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 17:26:48,073 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 17:31:06,334 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 17:31:09,392 ERROR 20548 [-/127.0.0.1/-/34ms GET /admin/staff/edit?id=5fc21479a125ad4d28af4c64] nodejs.ReferenceError: staffResultt is not defined
+    at StaffController.edit (C:\Users\86138\Desktop\rbac\app\controller\admin\staff.js:48:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 20548
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 18:53:34,575 ERROR 10476 nodejs.ClusterClientNoResponseError: client no response in 4683321ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 18:54:40,020 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 18:57:27,808 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 18:57:31,311 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 18:58:43,693 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 18:59:35,793 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:02:39,493 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:07:07,683 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:07:11,215 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:07:19,366 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:07:23,782 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:08:01,148 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:08:32,381 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:08:36,168 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:11:39,098 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:12:14,216 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:12:18,720 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:12:22,576 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:12:26,149 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:15:25,334 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:15:29,057 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:18:03,472 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:18:34,140 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:21:44,566 ERROR 22696 [-/127.0.0.1/-/25ms POST /admin/staff/doEdit] nodejs.TypeError: ctx.service.staff.updateById is not a function
+    at StaffController.doEdit (C:\Users\86138\Desktop\rbac\app\controller\admin\staff.js:89:46)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 22696
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:27:33,722 ERROR 10476 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10476
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:41:08,043 ERROR 18096 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18096
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:50:44,244 ERROR 21076 nodejs.unhandledRejectionError: EISDIR: illegal operation on a directory, read
+    at Object.readSync (fs.js:568:3)
+    at tryReadSync (fs.js:353:20)
+    at Object.readFileSync (fs.js:390:19)
+    at NunjucksFileLoader.getSource (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\node-loaders.js:91:15)
+    at NunjucksFileLoader.getSource (C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\file_loader.js:26:26)
+    at C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:337:29
+    at next (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:358:10)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\view.js:13:25
+    at new Promise (<anonymous>)
+    at NunjucksView.render (C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (C:\Users\86138\Desktop\rbac\node_modules\egg-view\lib\context_view.js:70:23)
+errno: -4068
+syscall: "read"
+code: "EISDIR"
+name: "unhandledRejectionError"
+pid: 21076
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:51:11,076 ERROR 20848 [-/::1/-/6ms GET /admin/login] nodejs.TypeError: Cannot read property 'render' of undefined
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:22
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 20848
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:51:20,397 ERROR 9960 [-/::1/-/16ms GET /admin/login] nodejs.EISDIRError: EISDIR: illegal operation on a directory, read
+    at Object.readSync (fs.js:568:3)
+    at tryReadSync (fs.js:353:20)
+    at Object.readFileSync (fs.js:390:19)
+    at NunjucksFileLoader.getSource (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\node-loaders.js:91:15)
+    at NunjucksFileLoader.getSource (C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\file_loader.js:26:26)
+    at C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:337:29
+    at next (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:332:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:319:9)
+    at NunjucksEnvironment.render (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:358:10)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\view.js:13:25
+    at new Promise (<anonymous>)
+    at NunjucksView.render (C:\Users\86138\Desktop\rbac\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (C:\Users\86138\Desktop\rbac\node_modules\egg-view\lib\context_view.js:70:23)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+errno: -4068
+syscall: "read"
+code: "EISDIR"
+name: "EISDIRError"
+pid: 9960
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:52:45,810 ERROR 19012 [-/::1/-/5ms GET /admin/login] nodejs.TypeError: Cannot read property 'render' of undefined
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:22
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 19012
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:52:54,993 ERROR 19012 [-/::1/-/1ms GET /admin/login] nodejs.TypeError: Cannot read property 'render' of undefined
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:10:22
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 19012
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:54:01,350 ERROR 13076 [-/::1/-/9ms GET /admin/login] nodejs.TypeError: Cannot read property 'session' of undefined
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:9:29
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 13076
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:54:18,144 ERROR 5760 [-/::1/-/7ms GET /admin/login] nodejs.TypeError: Cannot read property 'render' of undefined
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:11:22
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 5760
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:54:18,925 ERROR 18096 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18096
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:56:48,743 ERROR 22948 [-/::1/-/1ms GET /admin/login] nodejs.TypeError: Cannot destructure property 'name' of 'ctx.session.userinfo' as it is null.
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:9:11
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 22948
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:57:09,780 ERROR 22948 [-/::1/-/1ms GET /admin] nodejs.TypeError: Cannot destructure property 'name' of 'ctx.session.userinfo' as it is null.
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:9:11
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 22948
+hostname: DESKTOP-IPP0CS2
+
+2020-11-28 19:57:13,338 ERROR 22948 [-/::1/-/0ms GET /admin/login] nodejs.TypeError: Cannot destructure property 'name' of 'ctx.session.userinfo' as it is null.
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:9:11
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 22948
+hostname: DESKTOP-IPP0CS2
+
+2020-11-29 01:41:31,679 ERROR 18096 nodejs.ClusterClientNoResponseError: client no response in 10803434ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 18096
+hostname: DESKTOP-IPP0CS2
+

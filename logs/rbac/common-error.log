@@ -1,0 +1,949 @@
+2020-11-29 04:41:35,626 ERROR 18096 nodejs.ClusterClientNoResponseError: client no response in 10802965ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 18096
+hostname: DESKTOP-IPP0CS2
+
+2020-11-29 07:41:37,826 ERROR 18096 nodejs.ClusterClientNoResponseError: client no response in 10802039ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 18096
+hostname: DESKTOP-IPP0CS2
+
+2020-11-29 10:41:41,833 ERROR 18096 nodejs.ClusterClientNoResponseError: client no response in 10803050ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 18096
+hostname: DESKTOP-IPP0CS2
+
+2020-11-29 11:01:30,778 ERROR 18096 nodejs.ClusterClientNoResponseError: client no response in 1188093ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 18096
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 11:45:38,425 ERROR 9348 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9348
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 11:47:24,193 ERROR 9348 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9348
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:00:24,590 ERROR 3040 nodejs.ServerNoResponseError: server 127.0.0.1:50362 no response in 40000ms, maybe the socket is end on the other side. (address: 127.0.0.1:50362)
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ServerNoResponseError"
+pid: 3040
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:02:43,419 ERROR 16340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16340
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:05:18,177 ERROR 16340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16340
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:05:21,902 ERROR 16340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16340
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:15:14,649 ERROR 1712 [-/::1/-/15ms POST /admin/access/doAdd] nodejs.ReferenceError: body is not defined
+    at AccessController.doAdd (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:17:21)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1712
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:15:40,092 ERROR 11472 [-/::1/-/15ms POST /admin/access/doAdd] nodejs.TypeError: Cannot read property 'add' of undefined
+    at AccessController.doAdd (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:19:42)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 11472
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:17:48,023 ERROR 16340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16340
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:20:28,608 ERROR 16340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16340
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:20:40,190 ERROR 16340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16340
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:22:21,427 ERROR 16340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16340
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:22:35,173 ERROR 16340 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16340
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:30:22,394 ERROR 12596 [-/::1/-/5ms GET /admin/access/add] nodejs.ReferenceError: access_module_id is not defined
+    at AccessController.add (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:9:49)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 12596
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:37:06,799 ERROR 10904 nodejs.ServerNoResponseError: server 127.0.0.1:52616 no response in 40001ms, maybe the socket is end on the other side. (address: 127.0.0.1:52616)
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ServerNoResponseError"
+pid: 10904
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:37:45,759 ERROR 14736 nodejs.ClusterClientNoResponseError: client no response in 98958ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 14736
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:44:04,667 ERROR 3864 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3864
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:58:52,515 ERROR 3864 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3864
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:12:47,870 ERROR 3864 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3864
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:25:14,193 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:29:03,301 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:35:13,616 ERROR 2460 nodejs.ServerNoResponseError: server 127.0.0.1:54900 no response in 39999ms, maybe the socket is end on the other side. (address: 127.0.0.1:54900)
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ServerNoResponseError"
+pid: 2460
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:37:00,516 ERROR 6676 nodejs.ClusterClientNoResponseError: client no response in 166900ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:41:12,762 ERROR 6264 [-/::1/-/8ms GET /admin/access/list] nodejs.MongoError: unknown argument to $lookup: ass
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:268:20)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+    at Socket.Readable.push (_stream_readable.js:214:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+ok: 0
+code: 9
+codeName: "FailedToParse"
+name: "MongoError"
+pid: 6264
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:50:13,006 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:50:14,819 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:59:11,079 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:59:17,963 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:59:36,936 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 14:28:08,098 ERROR 16204 [-/::1/-/50ms POST /admin/access/doEdit] nodejs.ReferenceError: access_module is not defined
+    at AccessController.doEdit (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:77:13)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 16204
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 14:29:15,651 ERROR 10080 [-/::1/-/17ms POST /admin/access/doEdit] nodejs.ReferenceError: data_status is not defined
+    at AccessController.doEdit (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:81:13)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 10080
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 14:30:37,085 ERROR 11864 [-/::1/-/35ms POST /admin/access/doEdit] nodejs.ReferenceError: data_status is not defined
+    at AccessController.doEdit (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:82:13)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 11864
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 14:34:23,412 ERROR 5876 [-/::1/-/3ms GET /admin/access/delete?id=5fc488c322301b300c050e36] nodejs.TypeError: Cannot read property 'delete' of undefined
+    at AccessController.delete (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:95:47)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 5876
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 14:39:41,543 ERROR 6676 nodejs.ClusterClientNoResponseError: client no response in 259338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 15:13:56,170 ERROR 6676 nodejs.ClusterClientNoResponseError: client no response in 1153790ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 15:15:25,753 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 15:16:13,289 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 15:21:14,279 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 15:21:39,036 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 15:34:41,577 ERROR 6676 nodejs.ClusterClientNoResponseError: client no response in 71268ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 15:39:50,335 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 15:41:36,211 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 18:29:45,985 ERROR 6676 nodejs.ClusterClientNoResponseError: client no response in 10048263ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:04:07,840 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:09:55,143 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:10:05,948 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:10:09,233 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:10:36,565 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:15:27,596 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:15:32,316 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:20:26,213 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:20:32,717 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:24:32,264 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:26:03,699 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:29:06,648 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:30:01,953 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:30:14,576 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:31:21,202 ERROR 7360 [-/::1/-/15ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.TypeError: ctx.service.access.findAllWithChecked is not a function
+    at RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:47)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 7360
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:32:11,157 ERROR 13548 [-/::1/-/3ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.TypeError: ctx.service.access.findAllWithChecked is not a function
+    at RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:47)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13548
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:34:40,713 ERROR 18220 [-/::1/-/7ms GET /admin/role/auth?id=5fc2140aa125ad4d28af4c61] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:199:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 18220
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:34:46,716 ERROR 18220 [-/::1/-/11ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:199:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 18220
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:41:57,893 ERROR 10928 [-/::1/-/11ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:190:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 10928
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:42:15,764 ERROR 10928 [-/::1/-/10ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:190:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 10928
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:43:54,589 ERROR 10540 [-/::1/-/7ms GET /admin/role/auth?id=5fc2140aa125ad4d28af4c61] nodejs.TypeError: this.findAccessByRoleId is not a function
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:180:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 10540
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:44:55,413 ERROR 8316 [-/::1/-/15ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:190:43)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 8316
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:04:52,813 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:06:30,168 ERROR 8976 nodejs.ServerNoResponseError: server 127.0.0.1:54900 no response in 20001ms, maybe the socket is end on the other side. (address: 127.0.0.1:54900)
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ServerNoResponseError"
+pid: 8976
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:17:59,661 ERROR 3488 [-/::1/-/50ms GET /admin] nodejs.Template render error: (C:\Users\86138\Desktop\rbac\app\view\admin\index.html)
+  Template render error: (C:\Users\86138\Desktop\rbac\app\view\admin\common\aside.html) [Line 52, Column 14]
+  parseAggregate: expected comma after expression
+  Template render error: (C:\Users\86138\Desktop\rbac\app\view\admin\common\aside.html) [Line 52, Column 14]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:561:19
+    at eval (eval at _compile (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:38:11)
+    at C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:39:5
+    at RawTask.call (C:\Users\86138\Desktop\rbac\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\86138\Desktop\rbac\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+name: "Template render error"
+pid: 3488
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:26:22,874 ERROR 10500 [-/::1/-/7ms GET /admin] nodejs.TypeError: Cannot read property 'data' of undefined
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:9:36
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 10500
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:44:13,105 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:44:30,574 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:44:32,773 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:44:56,200 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:46:39,009 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:46:44,731 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:47:11,889 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:48:01,289 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:48:15,206 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 22:08:37,548 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 22:08:39,493 ERROR 6676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 23:06:35,502 ERROR 6676 nodejs.ClusterClientNoResponseError: client no response in 2871532ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6676
+hostname: DESKTOP-IPP0CS2
+

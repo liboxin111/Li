@@ -1,0 +1,431 @@
+2020-11-18 17:22:37,026 ERROR 7608 [-/127.0.0.1/-/4ms GET /admin/login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\86138\Desktop\rbac\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\86138\Desktop\rbac\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\86138\Desktop\rbac\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\86138\Desktop\rbac\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\86138\Desktop\rbac\node_modules\koa-override\index.js:13:70)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+
+pid: 7608
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 17:23:12,571 ERROR 16648 [-/127.0.0.1/-/17ms POST /admin/dologin] nodejs.TypeError: ctx.service.login.doLogin is not a function
+    at LoginController.doLogin (C:\Users\86138\Desktop\rbac\app\controller\admin\login.js:19:46)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 16648
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 17:24:09,220 ERROR 15172 [-/127.0.0.1/-/21ms POST /admin/dologin] nodejs.ObjectParameterError: Parameter "filter" to findOne() must be an object, got liyunlong
+    at model.Query.Query.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\query.js:2188:16)
+    at Function.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\model.js:2164:13)
+    at LoginService.dologin (C:\Users\86138\Desktop\rbac\app\service\login.js:5:48)
+    at LoginController.doLogin (C:\Users\86138\Desktop\rbac\app\controller\admin\login.js:19:46)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 15172
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 17:30:23,849 ERROR 15172 [-/127.0.0.1/-/3ms POST /admin/dologin] nodejs.ObjectParameterError: Parameter "filter" to findOne() must be an object, got liyunlong
+    at model.Query.Query.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\query.js:2188:16)
+    at Function.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\model.js:2164:13)
+    at LoginService.dologin (C:\Users\86138\Desktop\rbac\app\service\login.js:5:48)
+    at LoginController.doLogin (C:\Users\86138\Desktop\rbac\app\controller\admin\login.js:19:46)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 15172
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 17:30:37,597 ERROR 15172 [-/127.0.0.1/-/2ms POST /admin/dologin] nodejs.ObjectParameterError: Parameter "filter" to findOne() must be an object, got admin
+    at model.Query.Query.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\query.js:2188:16)
+    at Function.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\model.js:2164:13)
+    at LoginService.dologin (C:\Users\86138\Desktop\rbac\app\service\login.js:5:48)
+    at LoginController.doLogin (C:\Users\86138\Desktop\rbac\app\controller\admin\login.js:19:46)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 15172
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 17:32:26,867 ERROR 21744 [-/127.0.0.1/-/20ms POST /admin/dologin] nodejs.ObjectParameterError: Parameter "filter" to findOne() must be an object, got admin
+    at model.Query.Query.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\query.js:2188:16)
+    at Function.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\model.js:2164:13)
+    at LoginService.dologin (C:\Users\86138\Desktop\rbac\app\service\login.js:4:48)
+    at LoginController.doLogin (C:\Users\86138\Desktop\rbac\app\controller\admin\login.js:19:46)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 21744
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 17:35:31,556 ERROR 21744 [-/127.0.0.1/-/2ms POST /admin/dologin] nodejs.ObjectParameterError: Parameter "filter" to findOne() must be an object, got admin
+    at model.Query.Query.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\query.js:2188:16)
+    at Function.findOne (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\model.js:2164:13)
+    at LoginService.dologin (C:\Users\86138\Desktop\rbac\app\service\login.js:4:48)
+    at LoginController.doLogin (C:\Users\86138\Desktop\rbac\app\controller\admin\login.js:19:46)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 21744
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 17:38:00,972 ERROR 7556 [-/127.0.0.1/-/39ms POST /admin/dologin] nodejs.TypeError: Cannot read property 'msg' of undefined
+    at LoginController.doLogin (C:\Users\86138\Desktop\rbac\app\controller\admin\login.js:23:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 7556
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 19:47:31,687 ERROR 17196 [-/127.0.0.1/-/21ms GET /admin/staff/add] nodejs.ValidationError: Staff validation failed: role_id: Path `role_id` is required.
+    at model.Document.invalidate (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\document.js:2626:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\document.js:2446:17
+    at C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\schematype.js:1225:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errors: {"role_id":{"name":"ValidatorError","message":"Path `role_id` is required.","properties":{"message":"Path `role_id` is required.","type":"required","path":"role_id"},"kind":"required","path":"role_id"}}
+_message: "Staff validation failed"
+pid: 17196
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 19:47:57,844 ERROR 8936 [-/127.0.0.1/-/40ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 8936
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 19:47:58,601 ERROR 8936 [-/127.0.0.1/-/3ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 8936
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 20:00:45,517 ERROR 10768 [-/127.0.0.1/-/34ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 10768
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 20:01:04,671 ERROR 10768 [-/127.0.0.1/-/14ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 10768
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 20:01:05,472 ERROR 10768 [-/127.0.0.1/-/23ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 10768
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 20:01:20,237 ERROR 10768 [-/127.0.0.1/-/13ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 10768
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 20:04:40,619 ERROR 7784 [-/127.0.0.1/-/40ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 7784
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 20:05:11,925 ERROR 7784 [-/127.0.0.1/-/10ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 7784
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 20:05:12,616 ERROR 7784 [-/127.0.0.1/-/13ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 7784
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 20:05:17,041 ERROR 7784 [-/127.0.0.1/-/6ms GET /admin/staff/add] nodejs.MongoError: db already exists with different case already have: [Staff] trying to create [staff]
+    at Function.create (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+driver: true
+name: "MongoError"
+index: 0
+code: 13297
+pid: 7784
+hostname: DESKTOP-IPP0CS2
+
+2020-11-18 20:06:03,485 ERROR 6228 [-/127.0.0.1/-/55ms GET /admin/staff/add] nodejs.TypeError: Cannot read property 'flag' of undefined
+    at StaffController.add (C:\Users\86138\Desktop\rbac\app\controller\admin\staff.js:19:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 6228
+hostname: DESKTOP-IPP0CS2
+

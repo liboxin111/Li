@@ -1,0 +1,24 @@
+2020-11-21 15:57:47,767 ERROR 11152 nodejs.ClusterClientNoResponseError: client no response in 10814648ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 11152
+hostname: DESKTOP-IPP0CS2
+
+2020-11-21 21:10:21,669 ERROR 11152 nodejs.ClusterClientNoResponseError: client no response in 18752605ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 11152
+hostname: DESKTOP-IPP0CS2
+
+2020-11-22 02:46:56,924 ERROR 11152 nodejs.ClusterClientNoResponseError: client no response in 10813978ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 11152
+hostname: DESKTOP-IPP0CS2
+

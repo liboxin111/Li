@@ -1,0 +1,361 @@
+2020-11-30 12:15:14,650 ERROR 1712 [-/::1/-/15ms POST /admin/access/doAdd] nodejs.ReferenceError: body is not defined
+    at AccessController.doAdd (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:17:21)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1712
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:15:40,092 ERROR 11472 [-/::1/-/15ms POST /admin/access/doAdd] nodejs.TypeError: Cannot read property 'add' of undefined
+    at AccessController.doAdd (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:19:42)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 11472
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 12:30:22,394 ERROR 12596 [-/::1/-/5ms GET /admin/access/add] nodejs.ReferenceError: access_module_id is not defined
+    at AccessController.add (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:9:49)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 12596
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 13:41:12,764 ERROR 6264 [-/::1/-/8ms GET /admin/access/list] nodejs.MongoError: unknown argument to $lookup: ass
+    at MessageStream.messageHandler (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\connection.js:268:20)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\86138\Desktop\rbac\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+    at Socket.Readable.push (_stream_readable.js:214:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+ok: 0
+code: 9
+codeName: "FailedToParse"
+name: "MongoError"
+pid: 6264
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 14:28:08,098 ERROR 16204 [-/::1/-/50ms POST /admin/access/doEdit] nodejs.ReferenceError: access_module is not defined
+    at AccessController.doEdit (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:77:13)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 16204
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 14:29:15,652 ERROR 10080 [-/::1/-/17ms POST /admin/access/doEdit] nodejs.ReferenceError: data_status is not defined
+    at AccessController.doEdit (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:81:13)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 10080
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 14:30:37,086 ERROR 11864 [-/::1/-/35ms POST /admin/access/doEdit] nodejs.ReferenceError: data_status is not defined
+    at AccessController.doEdit (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:82:13)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 11864
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 14:34:23,416 ERROR 5876 [-/::1/-/3ms GET /admin/access/delete?id=5fc488c322301b300c050e36] nodejs.TypeError: Cannot read property 'delete' of undefined
+    at AccessController.delete (C:\Users\86138\Desktop\rbac\app\controller\admin\access.js:95:47)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 5876
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:31:21,203 ERROR 7360 [-/::1/-/15ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.TypeError: ctx.service.access.findAllWithChecked is not a function
+    at RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:47)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 7360
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:32:11,158 ERROR 13548 [-/::1/-/3ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.TypeError: ctx.service.access.findAllWithChecked is not a function
+    at RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:47)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:13
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13548
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:34:40,714 ERROR 18220 [-/::1/-/7ms GET /admin/role/auth?id=5fc2140aa125ad4d28af4c61] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:199:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 18220
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:34:46,717 ERROR 18220 [-/::1/-/11ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:199:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 18220
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:41:57,893 ERROR 10928 [-/::1/-/11ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:190:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 10928
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:42:15,765 ERROR 10928 [-/::1/-/10ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:190:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 10928
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:43:54,590 ERROR 10540 [-/::1/-/7ms GET /admin/role/auth?id=5fc2140aa125ad4d28af4c61] nodejs.TypeError: this.findAccessByRoleId is not a function
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:180:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 10540
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 20:44:55,414 ERROR 8316 [-/::1/-/15ms GET /admin/role/auth?id=5fc21404a125ad4d28af4c60] nodejs.ReferenceError: access_id is not defined
+    at AccesssService.findAllWithChecked (C:\Users\86138\Desktop\rbac\app\service\access.js:190:43)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.auth (C:\Users\86138\Desktop\rbac\app\controller\admin\role.js:75:22)
+    at async C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:12:7
+    at async C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\86138\Desktop\rbac\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\86138\Desktop\rbac\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\86138\Desktop\rbac\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\86138\Desktop\rbac\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 8316
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:17:59,662 ERROR 3488 [-/::1/-/50ms GET /admin] nodejs.Template render error: (C:\Users\86138\Desktop\rbac\app\view\admin\index.html)
+  Template render error: (C:\Users\86138\Desktop\rbac\app\view\admin\common\aside.html) [Line 52, Column 14]
+  parseAggregate: expected comma after expression
+  Template render error: (C:\Users\86138\Desktop\rbac\app\view\admin\common\aside.html) [Line 52, Column 14]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:561:19
+    at eval (eval at _compile (C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:38:11)
+    at C:\Users\86138\Desktop\rbac\node_modules\nunjucks\src\environment.js:39:5
+    at RawTask.call (C:\Users\86138\Desktop\rbac\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\86138\Desktop\rbac\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+name: "Template render error"
+pid: 3488
+hostname: DESKTOP-IPP0CS2
+
+2020-11-30 21:26:22,875 ERROR 10500 [-/::1/-/7ms GET /admin] nodejs.TypeError: Cannot read property 'data' of undefined
+    at C:\Users\86138\Desktop\rbac\app\middleware\adminAuth.js:9:36
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at nosniff (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\nosniff.js:8:11)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at noopen (C:\Users\86138\Desktop\rbac\node_modules\egg-security\lib\middlewares\noopen.js:8:11)
+
+pid: 10500
+hostname: DESKTOP-IPP0CS2
+

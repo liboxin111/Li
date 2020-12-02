@@ -1,0 +1,66 @@
+2020-11-20 19:19:41,982 INFO 3328 [egg-logrotator] app logger reload: got log-reload message
+2020-11-21 12:56:45,218 INFO 16480 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rbac-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-21 12:56:45,302 INFO 16480 [egg-multipart] stream mode enable
+2020-11-21 12:56:46,923 INFO 16480 [egg-mongoose] connecting mongodb://127.0.0.1:27017/Staff
+2020-11-21 12:56:47,501 INFO 16480 [egg-static] starting static serve /public/ -> C:\Users\86138\Desktop\rbac\app\public
+2020-11-21 12:56:47,508 INFO 16480 [egg-security] use csrf middleware
+2020-11-21 12:56:47,511 INFO 16480 [egg-security] use methodnoallow middleware
+2020-11-21 12:56:47,513 INFO 16480 [egg-security] use noopen middleware
+2020-11-21 12:56:47,515 INFO 16480 [egg-security] use nosniff middleware
+2020-11-21 12:56:47,517 INFO 16480 [egg-security] use xssProtection middleware
+2020-11-21 12:56:47,518 INFO 16480 [egg-security] use xframe middleware
+2020-11-21 12:56:47,520 INFO 16480 [egg-security] use dta middleware
+2020-11-21 12:56:47,520 INFO 16480 [egg-security] compose 7 middlewares into one security middleware
+2020-11-21 12:56:47,557 INFO 16480 [egg:core] dump config after load, 14ms
+2020-11-21 12:56:47,562 INFO 16480 [egg-mongoose] starting...
+2020-11-21 12:56:47,655 INFO 16480 [egg-mongoose] mongodb://127.0.0.1:27017/Staff connected successfully
+2020-11-21 12:56:47,657 INFO 16480 [egg-mongoose] instance[0] start successfully
+2020-11-21 12:56:47,660 INFO 16480 [egg-watcher:application] watcher start success
+2020-11-21 12:56:47,677 INFO 16480 [egg:core] dump config after ready, 13ms
+2020-11-21 12:56:48,316 INFO 20732 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rbac-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-21 12:56:48,355 INFO 20732 [egg-multipart] stream mode enable
+2020-11-21 12:56:48,871 INFO 20732 [egg-mongoose] connecting mongodb://127.0.0.1:27017/Staff
+2020-11-21 12:56:49,106 INFO 20732 [egg-static] starting static serve /public/ -> C:\Users\86138\Desktop\rbac\app\public
+2020-11-21 12:56:49,133 INFO 20732 [egg-security] use csrf middleware
+2020-11-21 12:56:49,136 INFO 20732 [egg-security] use methodnoallow middleware
+2020-11-21 12:56:49,139 INFO 20732 [egg-security] use noopen middleware
+2020-11-21 12:56:49,147 INFO 20732 [egg-security] use nosniff middleware
+2020-11-21 12:56:49,151 INFO 20732 [egg-security] use xssProtection middleware
+2020-11-21 12:56:49,153 INFO 20732 [egg-security] use xframe middleware
+2020-11-21 12:56:49,155 INFO 20732 [egg-security] use dta middleware
+2020-11-21 12:56:49,155 INFO 20732 [egg-security] compose 7 middlewares into one security middleware
+2020-11-21 12:56:49,185 INFO 20732 [egg:core] dump config after load, 10ms
+2020-11-21 12:56:49,188 INFO 20732 [egg-mongoose] starting...
+2020-11-21 12:56:49,244 INFO 20732 [egg-mongoose] mongodb://127.0.0.1:27017/Staff connected successfully
+2020-11-21 12:56:49,247 INFO 20732 [egg-mongoose] instance[0] start successfully
+2020-11-21 12:56:49,258 INFO 20732 [egg-watcher:application] watcher start success
+2020-11-21 12:56:49,271 INFO 20732 [egg:core] dump config after ready, 10ms
+2020-11-21 12:56:51,678 INFO 20732 [egg-view-nunjucks] loading templates from ["C:\\Users\\86138\\Desktop\\rbac\\app\\view"]
+2020-11-21 12:56:51,828 INFO 20760 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rbac-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-21 12:56:51,929 INFO 20760 [egg-multipart] stream mode enable
+2020-11-21 12:56:52,717 INFO 20760 [egg-mongoose] connecting mongodb://127.0.0.1:27017/Staff
+2020-11-21 12:56:53,010 INFO 20760 [egg-static] starting static serve /public/ -> C:\Users\86138\Desktop\rbac\app\public
+2020-11-21 12:56:53,016 INFO 20760 [egg-security] use csrf middleware
+2020-11-21 12:56:53,018 INFO 20760 [egg-security] use methodnoallow middleware
+2020-11-21 12:56:53,019 INFO 20760 [egg-security] use noopen middleware
+2020-11-21 12:56:53,021 INFO 20760 [egg-security] use nosniff middleware
+2020-11-21 12:56:53,022 INFO 20760 [egg-security] use xssProtection middleware
+2020-11-21 12:56:53,023 INFO 20760 [egg-security] use xframe middleware
+2020-11-21 12:56:53,024 INFO 20760 [egg-security] use dta middleware
+2020-11-21 12:56:53,024 INFO 20760 [egg-security] compose 7 middlewares into one security middleware
+2020-11-21 12:56:53,048 INFO 20760 [egg:core] dump config after load, 8ms
+2020-11-21 12:56:53,052 INFO 20760 [egg-mongoose] starting...
+2020-11-21 12:56:53,110 INFO 20760 [egg-mongoose] mongodb://127.0.0.1:27017/Staff connected successfully
+2020-11-21 12:56:53,112 INFO 20760 [egg-mongoose] instance[0] start successfully
+2020-11-21 12:56:53,116 INFO 20760 [egg-watcher:application] watcher start success
+2020-11-21 12:56:53,134 INFO 20760 [egg:core] dump config after ready, 10ms
+2020-11-21 12:56:57,383 INFO 20760 [egg-view-nunjucks] loading templates from ["C:\\Users\\86138\\Desktop\\rbac\\app\\view"]
+2020-11-21 15:57:47,767 WARN 20760 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 15:57:48,375 WARN 20760 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 21:10:21,671 WARN 20760 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 21:10:22,416 WARN 20760 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-22 02:46:56,869 WARN 20760 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-22 02:46:58,465 WARN 20760 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-22 02:46:58,934 INFO 20760 [egg-logrotator] clean all log before 31 days
+2020-11-22 02:46:59,013 INFO 20760 [egg-logrotator] broadcast log-reload
+2020-11-22 02:46:59,022 INFO 20760 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\common-error.log -> C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\common-error.log.2020-11-21","C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\rbac-web.log -> C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\rbac-web.log.2020-11-21","C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\egg-web.log -> C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\egg-web.log.2020-11-21","C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\egg-schedule.log -> C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\egg-schedule.log.2020-11-21","C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\egg-agent.log -> C:\\Users\\86138\\Desktop\\rbac\\logs\\rbac\\egg-agent.log.2020-11-21"]

@@ -1,0 +1,18 @@
+2020-11-21 12:56:45,301 INFO 16480 [egg-schedule]: register schedule C:\Users\86138\Desktop\rbac\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-21 12:56:45,301 INFO 16480 [egg-schedule]: register schedule C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-11-21 12:56:45,301 INFO 16480 [egg-schedule]: register schedule C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-21 12:56:47,689 INFO 11152 [Timer] C:\Users\86138\Desktop\rbac\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 55992315ms at 2020-11-22 04:30:00.004
+2020-11-21 12:56:47,689 INFO 11152 [Timer] C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 39792311ms at 2020-11-22 00:00:00.000
+2020-11-21 12:56:47,690 INFO 11152 [Timer] C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 39793311ms at 2020-11-22 00:00:01.001
+2020-11-21 12:56:48,354 INFO 20732 [egg-schedule]: register schedule C:\Users\86138\Desktop\rbac\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-21 12:56:48,354 INFO 20732 [egg-schedule]: register schedule C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-11-21 12:56:48,354 INFO 20732 [egg-schedule]: register schedule C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-21 12:56:51,927 INFO 20760 [egg-schedule]: register schedule C:\Users\86138\Desktop\rbac\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-21 12:56:51,927 INFO 20760 [egg-schedule]: register schedule C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-11-21 12:56:51,927 INFO 20760 [egg-schedule]: register schedule C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-22 02:46:56,885 INFO 11152 [Timer] C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 76383157ms at 2020-11-23 00:00:00.042
+2020-11-22 02:46:56,918 INFO 11152 [Timer] C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 76384113ms at 2020-11-23 00:00:01.030
+2020-11-22 02:46:58,766 INFO 20760 [Job#160598441681819386375329844001] C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-11-22 02:46:58,820 INFO 20760 [Job#160598441688619386375972674001] C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-11-22 02:46:58,934 INFO 20760 [Job#160598441681819386375329844001] C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 117ms. 
+2020-11-22 02:46:59,023 INFO 20760 [Job#160598441688619386375972674001] C:\Users\86138\Desktop\rbac\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 203ms. 

@@ -1,0 +1,124 @@
+2020-11-19 14:20:33,043 ERROR 17564 nodejs.ClusterClientNoResponseError: client no response in 50948381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17564
+hostname: DESKTOP-IPP0CS2
+
+2020-11-19 14:28:18,670 ERROR 17564 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17564
+hostname: DESKTOP-IPP0CS2
+
+2020-11-19 14:34:08,887 ERROR 17564 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17564
+hostname: DESKTOP-IPP0CS2
+
+2020-11-19 15:03:20,816 ERROR 6936 [-/127.0.0.1/-/23ms POST /admin/dologin] nodejs.TypeError: Cannot read property 'finde' of undefined
+    at LoginService.dologin (C:\Users\86138\Desktop\rbac\app\service\login.js:4:49)
+    at LoginController.doLogin (C:\Users\86138\Desktop\rbac\app\controller\admin\login.js:19:46)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 6936
+hostname: DESKTOP-IPP0CS2
+
+2020-11-19 15:03:36,111 ERROR 7896 [-/127.0.0.1/-/19ms POST /admin/dologin] nodejs.TypeError: this.ctx.service.staff.finde is not a function
+    at LoginService.dologin (C:\Users\86138\Desktop\rbac\app\service\login.js:4:51)
+    at LoginController.doLogin (C:\Users\86138\Desktop\rbac\app\controller\admin\login.js:19:46)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86138\Desktop\rbac\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\86138\Desktop\rbac\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86138\Desktop\rbac\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\86138\Desktop\rbac\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 7896
+hostname: DESKTOP-IPP0CS2
+
+2020-11-19 15:03:46,574 ERROR 18268 [-/127.0.0.1/-/23ms POST /admin/dologin] nodejs.CastError: Cast to string failed for value "{ username: 'admin', password: 'e10adc3949ba59abbe56e057f20f883e' }" at path "username" for model "Staff"
+    at model.Query.exec (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (C:\Users\86138\Desktop\rbac\node_modules\mongoose\lib\query.js:4450:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ username: 'admin', password: 'e10adc3949ba59abbe56e057f20f883e' }\""
+kind: "string"
+value: {"username":"admin","password":"e10adc3949ba59abbe56e057f20f883e"}
+path: "username"
+reason: null
+pid: 18268
+hostname: DESKTOP-IPP0CS2
+
+2020-11-19 15:18:39,601 ERROR 18160 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18160
+hostname: DESKTOP-IPP0CS2
+
+2020-11-19 15:20:57,926 ERROR 18160 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18160
+hostname: DESKTOP-IPP0CS2
+
+2020-11-19 15:21:01,833 ERROR 18160 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18160
+hostname: DESKTOP-IPP0CS2
+
+2020-11-19 18:30:51,625 ERROR 18160 nodejs.ClusterClientNoResponseError: client no response in 10815391ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 18160
+hostname: DESKTOP-IPP0CS2
+
+2020-11-20 19:19:41,514 ERROR 18160 nodejs.ClusterClientNoResponseError: client no response in 89327236ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86138\Desktop\rbac\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 18160
+hostname: DESKTOP-IPP0CS2
+
